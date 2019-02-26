@@ -1,0 +1,108 @@
+body { 
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  background-color: #222;
+  background-image: url('me.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+}
+
+p {
+  color: white;
+  text-align: center; 
+}
+.text {
+  margin: 50px auto;
+  max-width: 970px;
+  background-color: #ffffff55;
+  border: 1px solid #ccc;
+  filter: alpha(opacity=60); 
+}
+
+div.text p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+  font-size: 20px;
+}
+
+.fab, .far {
+  font-size: 40px;
+  color: blue;
+  padding-left: 20px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background: #55d6aa;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 43px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before{
+  content:'';
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #444; 
+  position: absolute;
+  top: 0;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+table {
+  margin: 0 auto;
+  max-width: 300px;
+  background-color: #22222299;
+  font-size: 16px;
+  color: white;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
