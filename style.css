@@ -13,7 +13,7 @@ p {
   text-align: center; 
 }
 .text {
-  margin: 50px auto;
+  margin: 70px auto;
   max-width: 970px;
   background-color: #ffffff55;
   border: 1px solid #ccc;
@@ -29,7 +29,7 @@ div.text p {
 
 .fab, .far {
   font-size: 40px;
-  color: blue;
+  color: #55d6aa;
   padding-left: 20px;
 }
 
